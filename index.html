@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/outline.css">
+	<link rel="stylesheet" href="dist/theme/black.css">
+
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-background-gradient="radial-gradient(#283b95, #17b2c3)">
+				<div style="padding-bottom: 100px;">
+					<h1>INTRUSION DETETCTION SYSTEM</h1>
+				</div>
+				<div style="outline: auto;">
+					<div>PRESENTED BY:</div>
+					<div>KESHAV GARG</div>
+					<div>B.Tech IT</div>
+					<div>(First Year)</div>
+				</div>
+			</section>
+			<section data-background-gradient="radial-gradient(#283b95, #17b2c3)">
+				<section>
+					<div style="text-decoration: underline;">
+						<h2>What is Intruder?</h2>
+					</div>
+					<div>
+						<img src="images\intruder.webp" />
+					</div>
+					<div style="margin-top: 5px;">
+						Intruders are the attackers who attempt to breach the security of a network.
+						They attack the network in order to get unauthorized access.
+					</div>
+				</section>
+				<section>
+					<div>
+						<h3>Three Types of Intruders</h3>
+					</div>
+					<ul style="padding-top: 40px;">
+						<li>Masquerader: An unauthorized person uses our system and exploit legitimate users account,
+							usually an outsider.</li>
+						<li style="padding-top: 15px;">Misfeasor: legitimate users only but no authorization even if
+							authorized, he/she will misuse their privilages, usually an insider. </li>
+						<li style="padding-top: 15px;">Clandestine User: A person who takes the supreme control of the
+							system and stops access to legitimate users. </li>
+					</ul>
+				</section>
+			</section>
+			<section data-background-gradient="radial-gradient(#283b95, #17b2c3)">
+				<section>
+					<div>
+						<h3>Intrusion detection system</h3>
+					</div>
+					<div>
+						<img src="images\ids-PhotoRoom.png-PhotoRoom.png" height="350px" />
+					</div>
+					<div>An Intrusion Detection System (IDS) is a system that monitors network traffic
+						for suspicious activity and issues alerts when such activity is discovered.</div>
+				</section>
+				<section>
+					<div style="margin-bottom: 20px;">
+						<h3>Types of IDS</h3>
+					</div>
+					<ol>
+						<li style="font-size: 30px;">Host-Based IDS (HIDS): A host-based IDS is deployed on a particular
+							endpoint and designed to protect it against internal and external threats.</li>
+                   <div>	<img src="images\HIDS.png" height="300px"  style="padding-right: 50px;" />
+					<img src="images\NIDS.png" height="300px" />
+				 </div>
+						<li style="font-size: 30px;">Network-Based IDS (NIDS):A network-based IDS solution is designed
+							to monitor an entire protected
+							network.</li>
+						
+					</ol>
+
+
+				</section>
+				<section style="font-size: 30px;">
+					<ul>
+						<li>
+							Hybrid Intrusion Detection System: Hybrid intrusion detection system is made by the
+							combination of two or more approaches of the intrusion detection system.
+						</li>
+						<div><img src="images\electronics-09-00173-g001.png" height="400px" style="padding-left: 60px;"/></div>
+					</ul>
+				</section>
+					<section>
+					<div style="margin-bottom: 20px;">
+						<h4>Detection Method of IDS:</h4>
+					</div>
+					<ol>
+						<li>Signature-based Method:
+							Signature-based IDS detects the attacks on the basis of the specific patterns such as number
+							of bytes or number of 1's or number of 0's in the network traffic.</li>
+						<li>Anomaly-based Method:
+							Anomaly-based IDS was introduced to detect unknown malware attacks as new malware are
+							developed rapidly.</li>
+					</ol>
+				</section>
+				
+			</section>
+			<section data-background-gradient="radial-gradient(#283b95, #17b2c3)">
+			<section >
+				<div style="padding-bottom: 20px;">
+					Artificial Intelligence based IDS
+				</div>
+				<div >AI-based NIDS most commonly use ML and DL algorithms. Noth ML and DL are broadly classified as supervised and unsupervised algorithms In supervised algorithms, useful information is extracted from the labeled data.</div>
+			</section>
+			<section><div style="padding-bottom: 20px;">ML Algorithms</div>
+ML is a subset of AI that has methods and algorithms which enable the machines to learn automatically using mathematical models in order to extract useful information from large datasets. The most common ML (also called Shallow Learning)
+ algorithms used for IDS are Decision Tree, K-Nearest Neighbor (KNN), Artificial Neural Network (ANN), Support Vector Machine (SVM), K-Mean Clustering.
+</section>
+</section>
+			<section data-background-gradient="radial-gradient(#283b95, #17b2c3)">
+				<div style="padding-bottom: 30px;">A GENERIC ARCHITECTURAL MODEL OF AN IDS</div>
+				<div><img src="images\Screenshot_20230217_141616.png" height="400px" /></div>
+			</section>
+			<section data-background-gradient="radial-gradient(#283b95, #17b2c3)">
+				<section>
+					<div>COMPARISON BETWEEN FIREWALL AND IDS:</div>
+					<div style="padding-top: 10px;">
+						<img src="images\Screenshot 2023-02-17 151707.png" height="350px" />
+
+					</div>
+					<div>
+						<img src="images\firewall-vs-ids.png" height="200px" />
+					</div>
+				</section>
+				<section>
+					<div>
+						<h4>Which is More efficient Firewall or IDS?</h4>
+					</div>
+					<div style="padding-top: 30px;">
+						An IDS provides no actual protection to the endpoint or network. A firewall, on the other hand,
+						is designed to act as a protective system. It performs analysis of the metadata of network
+						packets and allows or blocks traffic based upon predefined rules. This creates a boundary over
+						which certain types of traffic or protocols cannot pass.
+
+						Since a firewall is an active protective device, it is more like an Intrusion Prevention System
+						(IPS) than an IDS.
+					</div>
+				</section>
+				<section>
+					<div>
+						<h3>USES OF FIREWALL AND IDS</h3>
+					</div>
+					<div>1. Prevents the Passage of Unwanted Content</div>
+					<div>2. Prevents Unauthorized Remote Access</div>
+					<div>3. Prevents Indecent Content</div>
+					<div>4. Protects Seamless Operations in Enterprises</div>
+					<div>5. Prevents Destructive Content from Online Videos and Games</div>
+				</section>
+			</section>
+			<section data-background-gradient="radial-gradient(#283b95, #17b2c3)">
+				<section>
+					<div style="padding-bottom: 20px;">
+						<h3>An Immune Inspired Multilayer IDS</h3>
+
+					</div>
+					<div style="padding-bottom: 10px;">
+						<h4>objectives:</h4>
+					</div>
+					<div>(1) Adaptive immunity
+						which is characterized by learning, adaptability, and memory
+						and is broadly divided into two branches: humoral and cellular
+						immunity.</div>
+					<div>
+						(2) The analogy of the human immune systems
+						multilevel defense could be extended further to the intrusion
+						detection system itself.
+					</div>
+				</section>
+				<section>
+					<img src="images\immune.jpeg" height="600px" />
+					
+				</section>
+			</section>
+			<section data-background-gradient="radial-gradient(#283b95, #17b2c3)">
+				<img src="images\ItemID6769-removebg-preview.png" style="margin-top: -120px;" width="800px"/>
+			</section>
+		</div>
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+
+			hash: true,
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
+</html>
