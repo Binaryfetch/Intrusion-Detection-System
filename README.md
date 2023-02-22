@@ -32,6 +32,19 @@ npm start
 							system and stops access to legitimate users. </li>
 					</ul>
 				</section> 
+<section>
+					<div style="margin-bottom: 20px;">
+						<h4>Detection Method of IDS:</h4>
+					</div>
+					<ol>
+						<li>Signature-based Method:
+							Signature-based IDS detects the attacks on the basis of the specific patterns such as number
+							of bytes or number of 1's or number of 0's in the network traffic.</li>
+						<li>Anomaly-based Method:
+							Anomaly-based IDS was introduced to detect unknown malware attacks as new malware are
+							developed rapidly.</li>
+					</ol>
+				</section>
  <section>
 					<div style="margin-bottom: 20px;">
 						<h3>Types of IDS</h3>
